@@ -5,8 +5,8 @@ import java.util.zip.Inflater;
 public class Range {
     private String input;
 
-    public Range(String text) {
-        this.input = text;
+    public Range(String input) {
+        this.input = input;
     }
 
     public boolean isStartWithInclusive() {
